@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<job id="importJob" xmlns="http://xmlns.jcp.org/xml/ns/javaee" version="1.0">
+    <step id="firstChunkStep" >
+        <chunk item-count="100">
+            <reader ref="reader"/>
+            <processor ref="processor"/>
+            <writer ref="writer"/>
+        </chunk>
+    </step>
+</job>
